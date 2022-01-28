@@ -41,6 +41,10 @@ export default {
         title: "Animation",
         url: `/discover/movie?api_key=${API_KEY}&with_genres=16`,
     },
+    fetchKidMovies: {
+        title: "Kids",
+        url: `/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc`,
+    },
     fetchTV: {
         title: "TV Shows",
         url: `/discover/movie?api_key=${API_KEY}&with_genres=10770`,
