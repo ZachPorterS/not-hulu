@@ -14,6 +14,7 @@ function Header() {
             <Image
                 className='object-contain'
                 src="https://links.papareact.com/ua6"
+                alt="object-image"
                 width={150}
                 height={100} />
             <div className='flex flex-grow justify-evenly max-w-2xl'>
